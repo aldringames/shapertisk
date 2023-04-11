@@ -9,5 +9,7 @@ RUN echo "deb https://repositories.apertis.org/apertis/ v2022 development sdk ta
     echo "deb https://repositories.apertis.org/apertis/ v2022-$repo development sdk target" >> /etc/apt/sources.list; \
   done
 
-RUN apt-get -qqy update && \
-  apt-get -qqy upgrade
+RUN apt-get  update && \
+  apt-get  upgrade
+
+RUN echo "Shapertisk"
